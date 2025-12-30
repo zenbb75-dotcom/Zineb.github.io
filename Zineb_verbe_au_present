@@ -1,0 +1,13 @@
+program present;
+var verb,radicale:string;
+begin
+Writeln ( 'ecrire un verbe de premier groupe');
+ReadLn (verb);
+radicale:= Copy(verb,1,Length(verb)-2);
+writeln('je ' , radicale,'e'
+  ,#10,' tu ',radicale,'es'
+  ,#10,' il ',radicale,'e'
+  ,#10,' nous ',radicale,'ons'
+ ,#10,' vous ',radicale,'ez'
+ , #10,' ils ',radicale,'ent');
+end.
